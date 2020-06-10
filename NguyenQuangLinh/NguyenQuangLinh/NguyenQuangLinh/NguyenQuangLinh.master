@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="NguyenQuangLinh.master.cs" Inherits="NguyenQuangLinh" %>
+
+<%@ Register Src="~/UC/UCHeader.ascx" TagPrefix="uc1" TagName="UCHeader" %>
+<%@ Register Src="~/UC/UCfooter.ascx" TagPrefix="uc1" TagName="UCfooter" %>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Nguyễn Quang Linh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../umbala.js"></script>
+    <link href="../web.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+     
+        footer {
+            bottom: 0px;
+           
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <section id="content">
+
+            <uc1:UCHeader runat="server" ID="UCHeader" />
+
+
+
+
+            <article>
+                <aside id="left">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </aside>
+            </article>
+        </section>
+    </form>
+    <footer>
+        <uc1:UCfooter runat="server" ID="UCfooter" />
+    </footer>
+</body>
+
+</html>

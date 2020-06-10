@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Admin" %>
+
+<%@ Register Src="~/Admin/UC_admin.ascx" TagPrefix="uc1" TagName="UC_admin" %>
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Admin Nguyễn Quang Linh</title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <uc1:UC_admin runat="server" ID="UC_admin" />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

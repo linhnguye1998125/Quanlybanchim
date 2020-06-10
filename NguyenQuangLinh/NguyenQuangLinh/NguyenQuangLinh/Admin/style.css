@@ -1,0 +1,70 @@
+
+body {
+    background: url(../image/1.jpg)no-repeat center top;
+    background-size: cover;/*kich cỡ toàn màn hình*/
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;*/
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sub-main-w3 input[type="id"], .sub-main-w3 input[type="password"] {
+    outline: none; /*viền ngoài border-radius: */
+    font-size: .9em;
+    padding: 1em 3em 1em 1em;
+    border: none;
+    margin-bottom: 2px;
+
+   width: 82%;
+    color: #000;
+    border-radius: 30px;
+
+}
+.sub-main-w3 {   /*khung đăng nhập*/
+    width: 300px;
+    margin: 10em auto 12em;
+}
+.sub-w3l h5 a {/*Quên mật khẩu*/
+    /*font-size: .9em;*/
+    color: red;
+    /*letter-spacing: 1px;*/
+    text-align: right;
+    display: inherit;
+}
+
+.pass {
+    margin-top: .7em;/*Khoảng cách 2 input*/
+}
+
+.sub-main-w3 input[type="submit"] {
+    color: white;
+    background: blue;
+    border: none;
+    padding: .7em 0;
+
+    width: 44%;
+    font-size: 1em;
+
+    border-radius: 20px;
+}
+.sub-main-w3 input[type="submit"]:hover {
+    background: #fff;
+    color: black;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+/*--//main--*/
+
+/*--footer--*/
+.footer p {
+    font-size: .9em;
+    color: white;
+    letter-spacing: 2px;
+}
